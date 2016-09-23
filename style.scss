@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: url("Siomn_inbetweeners_thumbs_up.jpg");
-  font: 18px/1.4 #9966ff;
-  color:#ff6600;
+	background: $white;
+  font: 18px/1.4 $helvetica;
+  color: $darkGray;
 }
 
 .container {
@@ -190,7 +190,7 @@ img {
   }
 }
 
-.site-arunjohal {
+.site-name {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
@@ -285,6 +285,5 @@ footer {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights"{
+@import "highlights";
 @import "svg-icons";
-}
