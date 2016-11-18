@@ -1,5 +1,5 @@
 ---
-title: Using Github Week 1
+title:Week 1
 layout: post
 author: arun.johal
 permalink: /using-github-week-1/
